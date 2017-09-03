@@ -1,0 +1,470 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+
+/*复位样式*/
+p{
+    color: #333;
+    font-size: 0.9rem;
+}
+h2{
+    font-size: 30px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    font-weight: normal;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+h4{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+/*公共样式*/
+.continar{
+    width:1140px;
+    margin: 0 auto;
+}
+.text-red{
+    color:#e63735;
+}
+.page01,.page02,.page03{
+    width: 100%;
+    height: 662px;
+}
+.title{
+    height: 120px;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+}
+a{
+    display: inline-block;
+    background-color: #e63735;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+.kong{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin:20px 10px 5px;
+    display: inline-block;
+}
+/*nav*/
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color:#e63735;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    left: 0;
+}
+.logo{
+    width: 210px;
+    height: 100%;
+    margin: 15px;
+    margin-left: -15px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.nav_list{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.nav_list ul{
+    width: 600px;
+    height: 100%;
+}
+.nav_list ul li{
+    width: 70px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*page01*/
+.page01{
+    background: url("../images/banner-index.jpg");
+    overflow: hidden;
+}
+.center01{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    background: rgba(33,33,33,0.3);
+    text-align: center;
+}
+.center01 .text{
+    height: 100px;
+    width: 320px;
+    line-height: 100px;
+    display: inline-block;
+    border: 5px solid white;
+    text-align: center;
+    margin-top: 10px;
+}
+.center01 .scroll_top{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.scroll_top ul li{
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 2.5rem;
+    font-weight:bold;
+    font-style: italic;
+}
+.scroll_top ol{
+    position: absolute;
+    top:70%;
+    left:45%;
+
+}
+.scroll_top ol li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e63735;
+    float: left;
+    margin-left: 10px;
+    border: 3px solid white;
+}
+.scroll_top_ul{
+    margin-top: 0px;
+}
+.scroll_top ol.navigation li.curr{    
+    background-color: #000;
+}
+/*page02*/
+.top{
+    height: 130px;
+}
+.left02{
+    width: 70%;
+    height: 130px;
+    float: left;
+}
+.right02{
+    width: 20%;
+    height: 130px;
+    float: left;
+}
+.right02 a{
+    display: inline-block;
+    background-color: #e63735;
+    width: 150px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.list{
+    height: 411px;
+}
+.list ul li{
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.list ul li p{
+    margin-top: -5px;
+    line-height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*page03*/
+.wall,.service{
+    margin-top: 5px;
+    height: 541px;
+    width: 1338px;
+    position: relative;
+}
+
+.wall div{
+    width: 223px;
+    height: 223px;
+    float: left;
+    overflow: hidden;
+    background-color: #e63735;
+
+}
+.wall ul li div img{
+    width: 100%;
+    height: 100%;
+}
+.wall div p{
+    margin-top: -50px;
+    color: white;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/*page04*/
+.service{
+    background: url("../images/banner-service.jpg");
+}
+.service .left04,.wall .right04{
+    width: 50%;
+    height: 80%;
+    float: left;
+    overflow: hidden;
+}
+.service .left04{
+    text-align: center;
+    margin-top: 120px;
+}
+.right04 .top04{
+    padding-top: 50px;
+
+}
+.right04 .top04 p{
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.15rem;
+    margin-bottom: 40px;
+}
+
+.body04 ul li{
+    width: 100%;
+    height: 100px;
+}
+ .body04 ul li .img{
+    width: 64px;
+    height: 74px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.body04 ul li .web p{
+    color: #ffffff;
+}
+
+/*page05*/
+.title1{
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+/*page06*/
+.service1{
+    background: url("../images/banner-team.jpg");
+
+}
+.service1 h3{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 514px;
+}
+
+/*page07*/
+.Percentage{
+    background: url("../images/banner-client.jpg");
+}
+.Pertitle p{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.Perlist ul li{
+    width: 25%;
+    height: 210px;
+    float: left;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.Perlist ul li span{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 39%;
+    top:40px;
+}
+.Perlist ul li p{
+    color: white;
+}
+
+/*page08*/
+.map{
+    height: 750px;
+    width: 100%;
+}
+.map .left08{
+    width: 50%;
+    height: 70%;
+    float: left;
+    overflow: hidden;
+    background: url("../images/banner-map.jpg");
+}
+.map .right08{
+    width: 50%;
+    height: 70%;
+    float: left;
+    overflow: hidden;
+    background: url("../images/banner-map2.jpg");
+}
+.continar .left,.continar .right{
+    width: 50%;
+    height: 240px;
+    float: left;
+    /*overflow: hidden;*/
+}
+.continar .left input{
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.continar .right textarea{
+    width: 80%;
+    min-height: 150px;
+}
+.continar .right .send{
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e63735;
+    border-radius: 10px;
+    text-align: center;
+}
+.right .send img{
+    height: 40px;
+}
+/*page09*/
+.floor{
+    height: 510px;
+    width: 100%;
+    overflow: hidden;
+}
+.floor .title2{
+    height: 210px;
+    background: url("../images/bg-bottom.jpg");
+}
+.floor .title2{
+    color: white;
+    font-weight: normal;
+}
+.floor .title2 p{
+    color: white;
+    margin-top: -10px;
+}
+.bottom{
+    height: 270px;
+    width: 100%;
+    /*margin-top: -21px;*/
+    background-color: #2C3E50;
+}
+.bottom ul li{
+    list-style: none;
+    width: 33%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    color: white;
+}
+.b_list{
+    width: 180px;
+    text-align: left;
+}
+.b_list h4{
+    padding-top: 20px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+.b_list p{
+color: white;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.b_list span{
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1C2C3B;
+    margin-left: 2px;
+    margin-bottom: 4px;
+}
+.b_list .start p{
+    margin-top: 20px;
+}
+.b_list .start input{
+    width: 130px;
+    height: 22px;
+    background-color: white;
+}
+.img1{
+    background: url("../images/bg-email.png") no-repeat;
+}
+
+.info{
+    width: 100%;
+    height: 30px;
+    background-color: #1C2C3B;
+}
+.informa p{
+    width: 50%;
+    height: 30px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+aside{
+    width: 30px;
+    height: 100px;
+    background-color: #E63735;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    top: 40%;
+}
